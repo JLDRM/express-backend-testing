@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import 'dotenv/config';
 import cors from 'cors';
 import express, { json, urlencoded } from 'express';
 import morgan from 'morgan';
