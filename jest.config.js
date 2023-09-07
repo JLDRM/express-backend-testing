@@ -11,4 +11,7 @@ module.exports = {
   },
   testMatch: ['**/tests/**/*.spec.(ts|js)'],
   testEnvironment: 'node',
+  // testEnvironment: 'jest-environment-jsdom',
+  collectCoverageFrom: ['**/src/**/*.ts'],
+  watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
 };

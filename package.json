@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev --respawn src/index.ts",
-    "test": "jest --watchAll",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "format": "npm run prettier -- --write"
   },
@@ -35,6 +36,7 @@
     "eslint-config-prettier": "^8.8.0",
     "jest": "^28.1.0",
     "jest-in-case": "^1.0.2",
+    "jest-watch-typeahead": "^2.2.2",
     "mocha-junit-reporter": "^2.0.2",
     "prettier": "^2.8.8",
     "supertest": "^6.2.3",
