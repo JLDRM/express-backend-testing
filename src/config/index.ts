@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { merge } from 'lodash';
 import dev from './dev';
 import prod from './prod';
